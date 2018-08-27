@@ -6,7 +6,7 @@ These are some cloud functions for the [Alarmapp](https://github.com/ramomar/ala
 
 | Name                                               | Description        | Configuration |
 |----------------------------------------------------|--------------------|---------------|
-| Push notifications. | This function sends push notifications to iOS and Android, it gets invoked by the Particle Cloud when the `alarmSystemTriggered` event is published. | Set `alarmapp.basic_auth_user` and `alarmapp.basic_auth_password` with the Firebase CLI. |
+| Push notifications. | This function sends push notifications to iOS and Android, it gets invoked by the Particle Cloud when the `alarmSystemTriggered` event is published. It uses basic access authentication. | Set `alarmapp.basic_auth_user` and `alarmapp.basic_auth_password` with the Firebase CLI. |
 
 ## Environment variables
 
